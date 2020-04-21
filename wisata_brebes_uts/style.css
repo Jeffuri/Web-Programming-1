@@ -1,0 +1,93 @@
+body{
+	background-color:rgb(0, 0, 0);
+	font-size:16px
+}
+ 
+.content{
+	width: 100%;
+	margin: 10px auto;
+}
+.box-login{
+	width: 30%;
+	height: 300px;
+	background-color: darkturquoise;
+	margin: 5% auto;
+	padding: 2%;
+
+}
+
+.box-login form input[type=text],
+.box-login form input[type=text] {
+	width: 90%;
+	height: 30px;
+	margin: 1% 0;
+	padding-left: 1%;
+
+}
+
+ 
+/*header*/
+header{
+	background-color: rgb(90, 166, 236);
+	background-image: url(brebes.jpg);
+	background-size: cover;
+	padding: 20px 5px;
+	border-radius: 5px;
+	border: 1px solid rgb(0, 0, 0)100, 98, 100);
+	margin-bottom: 10px;
+}
+ 
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
+}
+
+ 
+/*menu navigasi*/
+.menu{
+	background-color: #fff;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+ 
+ 
+div.menu ul li {
+	float:left;		
+	text-transform:uppercase;
+}
+ 
+div.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:#2c2c2c;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+ 
+ 
+div.badan{
+	background-color: rgb(116, 178, 248);
+	border-radius: 5px;
+	border: 1px solid rgb(111, 206, 250);
+	margin-bottom: 10px;
+}
+ 
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}
